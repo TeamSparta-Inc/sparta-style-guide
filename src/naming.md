@@ -175,7 +175,7 @@ function handleClick(event) {
 }
 ```
 
-### Props의 타입 네이밍
+## Props의 타입 네이밍
 
 컴포넌트의 props 타입은 Props로 명명합니다.
 
