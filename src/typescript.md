@@ -1,3 +1,15 @@
+# Typescript
+
+- [모르는 타입에 대해서 any가 아닌 unknown을 사용합니다.](#모르는-타입에-대해서-any가-아닌-unknown을-사용합니다)
+- [union 타입, unknown 타입에 대해 타입 가드를 사용합니다.](#union-타입-unknown-타입에-대해-타입-가드를-사용합니다)
+- [interface를 선언할 때 I prefix를 사용하지 않고 Pascal case로 타입을 선언합니다.](#interface를-선언할-때-i-prefix를-사용하지-않고-pascal-case로-타입을-선언합니다)
+- [DRY (Don't repeat yourself)](#dry-don't-repeat-yourself)
+  - [같은 타입을 여러번 선언하지 마세요.](#같은-타입을-여러번-선언하지-마세요)
+  - [추론된 타입을 다시 선언하지 마세요.](#추론된-타입을-다시-선언하지-마세요)
+  - [유틸리티 타입을 사용하세요.](#유틸리티-타입을-사용하세요)
+- [열거형은 `enum`은 사용하지 않고 `as const`를 사용하여 표현합니다.](#열거형은-enum은-사용하지-않고-as-const를-사용하여-표현합니다)
+- [컴포넌트의 Props의 타입 선언은 같은 파일 내에 Props라는 네이밍으로 선언합니다.](#컴포넌트의-props의-타입-선언은-같은-파일-내에-props라는-네이밍으로-선언합니다)
+
 ## 모르는 타입에 대해서 any가 아닌 unknown을 사용합니다.
 
 ```ts
